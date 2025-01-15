@@ -55,9 +55,8 @@ if __name__ == "__main__":
     os.makedirs(output_folder, exist_ok=True)
 
     # Call the function to merge PDFs
-
-    #end_date = datetime(2024, 11, 3)  # Example end date
-    offset_minutes = 5  # Example offset between consecutive timestamps
     merge_pdfs(first_page_folder, template_pdf_path, output_folder, output_folder_MD, start_date)
 
+    #end_date = datetime(2024, 11, 3)  # Example end date
+    #offset_minutes = 5  # Example offset between consecutive timestamps
     #change_metadata_in_directory(output_folder, "random", start_date, end_date, offset_minutes)
